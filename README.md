@@ -6,11 +6,9 @@ It can be helpful especially during local development, when you want services
 inside the cluster to access a local running application.
 
 ## Usage
-To point a service to an external one, simply run the following command:
+A command-line interface to point services to external applications.
 
 ```
-A command-line interface to point services to external applications
-
 Usage:
   kutex [flags]
   kutex [command]
@@ -25,8 +23,7 @@ Flags:
 ```
 
 ### Replace
-Replace a service with a service pointing to an external endpoint.
-**Please note that the existing service gets deleted during this process, so make a backup!**
+Replace a service with a service pointing to an external endpoint. While the original service gets deleted, it is attached as an annotation to the new service and can be restored later.
 
 ```
 Usage:
