@@ -1,4 +1,5 @@
 # KutEx - Kubernetes to External Service
+[![Build Status](https://travis-ci.org/Duske/kutex.svg?branch=master)](https://travis-ci.org/Duske/kutex)
 
 This little tool helps you to replace a service with one that points to a (local) endpoint
 quickly.
